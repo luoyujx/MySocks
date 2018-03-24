@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5C099CD02063CB32003C9868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C099CCF2063CB32003C9868 /* AppDelegate.swift */; };
-		5C099CD22063CB32003C9868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C099CD12063CB32003C9868 /* ViewController.swift */; };
 		5C099CD42063CB32003C9868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C099CD32063CB32003C9868 /* Assets.xcassets */; };
-		5C099CD72063CB32003C9868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C099CD52063CB32003C9868 /* Main.storyboard */; };
 		5C099CE32063CB32003C9868 /* MySocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C099CE22063CB32003C9868 /* MySocksTests.swift */; };
 		5C099CEE2063CB32003C9868 /* MySocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C099CED2063CB32003C9868 /* MySocksUITests.swift */; };
+		5C099CFC2063CB46003C9868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C099CFB2063CB46003C9868 /* ViewController.swift */; };
+		5C099CFE2063CB68003C9868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C099CFD2063CB68003C9868 /* Main.storyboard */; };
+		5C099D002063CB80003C9868 /* ServerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C099CFF2063CB80003C9868 /* ServerIO.swift */; };
+		5C099D022063CB87003C9868 /* JsonGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C099D012063CB87003C9868 /* JsonGenerator.swift */; };
+		5C099D042063DE41003C9868 /* id_rsa in Resources */ = {isa = PBXBuildFile; fileRef = 5C099D032063DE41003C9868 /* id_rsa */; };
+		5C099D082063F6AE003C9868 /* asd in Resources */ = {isa = PBXBuildFile; fileRef = 5C099D072063F6AE003C9868 /* asd */; };
+		5CC86895206548CA002FEB58 /* scp in Resources */ = {isa = PBXBuildFile; fileRef = 5CC86894206548CA002FEB58 /* scp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,7 @@
 /* Begin PBXFileReference section */
 		5C099CCC2063CB32003C9868 /* MySocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C099CCF2063CB32003C9868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C099CD12063CB32003C9868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C099CD32063CB32003C9868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C099CD62063CB32003C9868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C099CD82063CB32003C9868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C099CD92063CB32003C9868 /* MySocks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MySocks.entitlements; sourceTree = "<group>"; };
 		5C099CDE2063CB32003C9868 /* MySocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +49,13 @@
 		5C099CE92063CB32003C9868 /* MySocksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySocksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C099CED2063CB32003C9868 /* MySocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySocksUITests.swift; sourceTree = "<group>"; };
 		5C099CEF2063CB32003C9868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C099CFB2063CB46003C9868 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../TriSConfigMac/TriSConfigMac/ViewController.swift; sourceTree = "<group>"; };
+		5C099CFD2063CB68003C9868 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5C099CFF2063CB80003C9868 /* ServerIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerIO.swift; sourceTree = "<group>"; };
+		5C099D012063CB87003C9868 /* JsonGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonGenerator.swift; sourceTree = "<group>"; };
+		5C099D032063DE41003C9868 /* id_rsa */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = id_rsa; sourceTree = "<group>"; };
+		5C099D072063F6AE003C9868 /* asd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = asd; sourceTree = "<group>"; };
+		5CC86894206548CA002FEB58 /* scp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,7 @@
 		5C099CC32063CB32003C9868 = {
 			isa = PBXGroup;
 			children = (
+				5C099D062063DFE6003C9868 /* Assets */,
 				5C099CCE2063CB32003C9868 /* MySocks */,
 				5C099CE12063CB32003C9868 /* MySocksTests */,
 				5C099CEC2063CB32003C9868 /* MySocksUITests */,
@@ -96,10 +107,13 @@
 		5C099CCE2063CB32003C9868 /* MySocks */ = {
 			isa = PBXGroup;
 			children = (
+				5CC86894206548CA002FEB58 /* scp */,
 				5C099CCF2063CB32003C9868 /* AppDelegate.swift */,
-				5C099CD12063CB32003C9868 /* ViewController.swift */,
 				5C099CD32063CB32003C9868 /* Assets.xcassets */,
-				5C099CD52063CB32003C9868 /* Main.storyboard */,
+				5C099CFD2063CB68003C9868 /* Main.storyboard */,
+				5C099CFF2063CB80003C9868 /* ServerIO.swift */,
+				5C099D012063CB87003C9868 /* JsonGenerator.swift */,
+				5C099CFB2063CB46003C9868 /* ViewController.swift */,
 				5C099CD82063CB32003C9868 /* Info.plist */,
 				5C099CD92063CB32003C9868 /* MySocks.entitlements */,
 			);
@@ -122,6 +136,15 @@
 				5C099CEF2063CB32003C9868 /* Info.plist */,
 			);
 			path = MySocksUITests;
+			sourceTree = "<group>";
+		};
+		5C099D062063DFE6003C9868 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5C099D072063F6AE003C9868 /* asd */,
+				5C099D032063DE41003C9868 /* id_rsa */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +216,11 @@
 					5C099CCB2063CB32003C9868 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					5C099CDD2063CB32003C9868 = {
 						CreatedOnToolsVersion = 9.2;
@@ -231,8 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C099CFE2063CB68003C9868 /* Main.storyboard in Resources */,
+				5CC86895206548CA002FEB58 /* scp in Resources */,
+				5C099D042063DE41003C9868 /* id_rsa in Resources */,
 				5C099CD42063CB32003C9868 /* Assets.xcassets in Resources */,
-				5C099CD72063CB32003C9868 /* Main.storyboard in Resources */,
+				5C099D082063F6AE003C9868 /* asd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C099CD22063CB32003C9868 /* ViewController.swift in Sources */,
+				5C099CFC2063CB46003C9868 /* ViewController.swift in Sources */,
+				5C099D002063CB80003C9868 /* ServerIO.swift in Sources */,
 				5C099CD02063CB32003C9868 /* AppDelegate.swift in Sources */,
+				5C099D022063CB87003C9868 /* JsonGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,17 +325,6 @@
 			targetProxy = 5C099CEA2063CB32003C9868 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5C099CD52063CB32003C9868 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C099CD62063CB32003C9868 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5C099CF02063CB32003C9868 /* Debug */ = {

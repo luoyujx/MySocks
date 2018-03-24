@@ -1,0 +1,5 @@
+#!/usr/bin/expect -f 
+spawn scp /Users/yuluo/Desktop/SSHCon.sh root@144.202.100.148:/etc
+expect "Password:"
+send "b]G8Na$!rhu!YF5p\r"
+interact
